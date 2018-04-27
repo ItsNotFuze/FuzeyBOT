@@ -9,7 +9,7 @@ client.login(process.env.BOT_TOKEN);
 client.on('ready', () => {
     console.log('[FuzeyBOT] Im\' alive!');
     client.user.setStatus('Online');
-    client.user.setPresence({ game: { name: 'F-INFO || F-HELP', type: 0 } });;
+    client.user.setPresence({ game: { url: 'https://www.twitch.tv/fuzeyfuze', name: 'F-INFO || F-HELP', type: 1 } })
 });
 
 client.on("message", message => {
